@@ -1,0 +1,32 @@
+body{
+    font-family: Comic Sans Ms;
+    color: rgb(199, 155, 41);
+    height: 100%;
+}
+/*This is for the text color of all other h1s*/
+.text-color{
+    color: rgb(0, 0, 0);
+}
+/*This changes the background color of the button making it visible on the navbar. It doesn't have the hamburger lines because I have altered it.*/
+.btn-background-color{
+    background-color: rgb(199, 155, 41);
+}
+/* Changes the color of the links to fit the rest of the page*/
+.atag-color{
+    color: rgb(199, 155, 41);
+    text-decoration-line: underline;
+} 
+/*This changes the link colors on the home page to be more readable for the user  */
+.link-color{
+    color: rgb(51, 82, 40);
+    text-decoration-line: underline;
+}
+/*This is the color sceme for the navbar, footer and tables*/
+.color-scheme{
+    background-color: rgb(51, 82, 40);
+    color: rgb(199, 155, 41);
+}
+/*This changes the color of the cat on the footer*/
+.cat{
+    color: rgb(199, 155, 41); 
+}

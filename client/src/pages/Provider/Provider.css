@@ -1,0 +1,45 @@
+#provider{
+    background-image: url('../../assets/desktopDesireKitty.jpeg');
+    background-repeat: 'no-repeat';
+    background-size: cover;
+    margin-top: 56px;
+    height: 100vh;
+}
+/* this positions everything for the size of the screen */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    #provider {
+        background-image: url('../../assets/mobileDesireKitty.jpeg');
+        background-repeat: repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-font-size{
+        font-size: xx-small;
+    }
+    .nav-font-size{
+        font-size: small;
+    }
+    .h1-font-size-position{
+        font-size:xx-large;
+        color:black;
+        margin-top: 40px;
+    }
+    .h3-font-size{
+        font-size:larger;
+    }
+    .h4-font-size{
+        font-size: medium;
+    }
+    .footer-height{
+        height: 50px
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 3rem
+    }
+    .icon-positioning{
+        padding-left: .5rem
+    }
+}

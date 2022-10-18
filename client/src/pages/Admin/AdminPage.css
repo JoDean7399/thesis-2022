@@ -1,0 +1,41 @@
+#adminPage{
+    background-image: url('../../assets/desktopBasketKitty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+}
+/* this positions everything for the size of the screen */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    #adminPage {
+        background-image: url('../../assets/mobileBasketKitty.jpeg');
+        background-repeat: repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-font-size{
+        font-size: xx-small;
+    }
+    .nav-font-size{
+        font-size: small;
+    }
+    .h1-font-size-position{
+        color:black;
+        margin-top: 40px;
+    }
+    .h3-font-color{
+        color:black;
+    }
+    .footer-height{
+        height: 50px
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 3rem
+    }
+    .icon-positioning{
+        padding-left: .5rem
+    }
+}

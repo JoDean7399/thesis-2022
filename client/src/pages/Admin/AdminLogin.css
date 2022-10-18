@@ -1,0 +1,43 @@
+#admin{
+    background-image: url('../../assets/desktopMommyKitty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%
+}
+
+input{
+    color: purple
+}
+/* this positions everything for the size of the screen */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    #admin {
+        background-image: url('../../assets/mobileMommyKitty.jpeg');
+        background-repeat: repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-font-size{
+        font-size: xx-small;
+    }
+    .nav-font-size{
+        font-size: small;
+    }
+    .h1-font-size-position{
+        color:black;
+        font-size: medium;
+        margin-top: 46px;
+    }
+    .footer-height{
+        height: 50px
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 3rem
+    }
+    .icon-positioning{
+        padding-left: .5rem
+    }
+}

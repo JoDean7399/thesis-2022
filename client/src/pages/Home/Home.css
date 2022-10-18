@@ -1,0 +1,62 @@
+#home{
+    background-image: url('../../assets/desktopAtYaForYaKitty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+ul{
+    list-style-type: none;
+}
+/* this positions everything for the size of the screen */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    #home {
+        background-image: url('../../assets/mobileAtYaForYaKitty.jpeg');
+        background-repeat: repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-font-size{
+        font-size: xx-small;
+    }
+    .nav-font-size{
+        font-size: small;
+    }
+    .h1-font-size-position{
+        font-size: medium;
+        margin-top: 40px;
+    }
+    .footer-height{
+        height: 50px
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 3rem
+    }
+    .icon-positioning{
+        padding-left: .5rem
+    }
+}
+/* this sets the view for 577px and up*/ 
+@media only screen and (min-width: 577px) {
+    .h1-font-size-position{
+        margin-top: 48px;
+    }
+    .footer-height{
+        height: 75px
+    }
+    .footer-font-size{
+        font-size: small;
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 6rem
+    }
+    .icon-positioning{
+        padding-left: 2rem
+    }
+}

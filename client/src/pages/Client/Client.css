@@ -1,0 +1,50 @@
+#client{
+    background-image: url('../../assets/deskdropJokerKitty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+}
+
+.contacth4{
+    color: white;
+}
+/* this positions everything for the size of the screen */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    #client {
+        background-image: url('../../assets/mobileJokerKitty.jpeg');
+        background-repeat: repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-font-size{
+        font-size: xx-small;
+    }
+    .nav-font-size{
+        font-size: small;
+    }
+    .h1-font-size-position{
+        color:black;
+        font-size: medium;
+        margin-top: 38px;
+    }
+    .h3-font-color{
+        color:black;
+    }
+    .form-font-size-color{
+        color:black;
+        font-size: medium;
+    }
+    .footer-height{
+        height: 50px
+    }
+    .footer-positioning{
+        padding-left: 3rem 
+    }
+    .lg-window-cat-positioning{
+        margin-left: 3rem
+    }
+    .icon-positioning{
+        padding-left: .5rem
+    }
+}
